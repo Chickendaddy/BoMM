@@ -29,6 +29,7 @@ public final class R {
         public static final int backcolor1=0x7f020000;
         public static final int backcolor2=0x7f020001;
         public static final int bookperson=0x7f020002;
+<<<<<<< HEAD
         public static final int building=0x7f020003;
         public static final int call=0x7f020004;
         public static final int color_heart=0x7f020005;
@@ -62,12 +63,51 @@ public final class R {
         public static final int visable_home=0x7f020021;
         public static final int visable_pos=0x7f020022;
         public static final int visable_signal=0x7f020023;
+=======
+        public static final int callandinternet=0x7f020003;
+        public static final int direct=0x7f020004;
+        public static final int eightback=0x7f020005;
+        public static final int elevenback=0x7f020006;
+        public static final int hend=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int img_building=0x7f020009;
+        public static final int img_call=0x7f02000a;
+        public static final int left=0x7f02000b;
+        public static final int logo=0x7f02000c;
+        public static final int nineback=0x7f02000d;
+        public static final int num1=0x7f02000e;
+        public static final int num2=0x7f02000f;
+        public static final int num3=0x7f020010;
+        public static final int num4=0x7f020011;
+        public static final int num5=0x7f020012;
+        public static final int person1=0x7f020013;
+        public static final int person2=0x7f020014;
+        public static final int person3=0x7f020015;
+        public static final int person4=0x7f020016;
+        public static final int person5=0x7f020017;
+        public static final int res=0x7f020018;
+        public static final int right=0x7f020019;
+        public static final int sevenback=0x7f02001a;
+        public static final int sixback=0x7f02001b;
+        public static final int tenback=0x7f02001c;
+        public static final int text2=0x7f02001d;
+        public static final int text_1=0x7f02001e;
+        public static final int twelveback=0x7f02001f;
+        public static final int twin1=0x7f020020;
+        public static final int twin2=0x7f020021;
+        public static final int visable_graph=0x7f020022;
+        public static final int visable_heart=0x7f020023;
+        public static final int visable_home=0x7f020024;
+        public static final int visable_pos=0x7f020025;
+        public static final int visable_signal=0x7f020026;
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
     }
     public static final class id {
         public static final int BtnNext=0x7f09000b;
         public static final int BtnPrev=0x7f090003;
         public static final int LinearLayout1=0x7f090001;
         public static final int RelativeLayout1=0x7f090011;
+<<<<<<< HEAD
         public static final int action_settings=0x7f0900c3;
         public static final int btn_exit=0x7f090022;
         public static final int btn_next=0x7f0900c1;
@@ -106,12 +146,43 @@ public final class R {
         public static final int fourty_nine_txt7=0x7f09003c;
         public static final int imageButton1=0x7f090023;
         public static final int imageButton2=0x7f090025;
+=======
+        public static final int TextView01=0x7f09002b;
+        public static final int action_settings=0x7f09009b;
+        public static final int bg=0x7f09001f;
+        public static final int btn_exit=0x7f090031;
+        public static final int btn_next=0x7f090099;
+        public static final int btn_next2=0x7f090019;
+        public static final int btn_perv2=0x7f090015;
+        public static final int btn_prev=0x7f090094;
+        public static final int btn_search=0x7f09002a;
+        public static final int btn_select=0x7f090018;
+        public static final int button1=0x7f090014;
+        public static final int checkBox1=0x7f090042;
+        public static final int checkedTextView1=0x7f090073;
+        public static final int checkedTextView2=0x7f090074;
+        public static final int editText1=0x7f090097;
+        public static final int editText2=0x7f090096;
+        public static final int edit_input=0x7f09000a;
+        public static final int edit_search=0x7f090029;
+        public static final int eightText=0x7f09003c;
+        public static final int elevenText=0x7f09003e;
+        public static final int fifteenBtn=0x7f090038;
+        public static final int fifteenText1=0x7f090037;
+        public static final int fifteenText2=0x7f090039;
+        public static final int fiveText=0x7f090033;
+        public static final int fourteenText1=0x7f090035;
+        public static final int fourteenText2=0x7f090036;
+        public static final int imageButton1=0x7f090032;
+        public static final int imageButton2=0x7f090034;
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
         public static final int imageButton3=0x7f09000c;
         public static final int imageButton4=0x7f09000d;
         public static final int imageButton5=0x7f09000e;
         public static final int imageButton6=0x7f09000f;
         public static final int imageButton7=0x7f090010;
         public static final int imageView1=0x7f090002;
+<<<<<<< HEAD
         public static final int imageView10=0x7f090048;
         public static final int imageView11=0x7f09004f;
         public static final int imageView12=0x7f090052;
@@ -128,13 +199,28 @@ public final class R {
         public static final int list=0x7f090017;
         public static final int listView1=0x7f0900b8;
         public static final int msg_txt=0x7f090079;
+=======
+        public static final int imageView2=0x7f090020;
+        public static final int imageView3=0x7f090027;
+        public static final int imageView4=0x7f090028;
+        public static final int imageView5=0x7f090030;
+        public static final int image_num1=0x7f090005;
+        public static final int image_num4=0x7f090045;
+        public static final int image_num5=0x7f09001b;
+        public static final int imgbtn_Next=0x7f09001e;
+        public static final int imgbtn_Prev=0x7f09001a;
+        public static final int list=0x7f090017;
+        public static final int listView1=0x7f090090;
+        public static final int msg_txt=0x7f090065;
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
         public static final int pager=0x7f090000;
         public static final int scrollView1=0x7f090004;
         public static final int scrollView2=0x7f090009;
-        public static final int sevenText=0x7f09002c;
-        public static final int sixText=0x7f09002b;
-        public static final int tenText=0x7f09002e;
+        public static final int sevenText=0x7f09003b;
+        public static final int sixText=0x7f09003a;
+        public static final int tenText=0x7f09003d;
         public static final int textView1=0x7f090006;
+<<<<<<< HEAD
         public static final int textView10=0x7f090045;
         public static final int textView11=0x7f090049;
         public static final int textView12=0x7f09004a;
@@ -260,12 +346,114 @@ public final class R {
         public static final int txt_step_5_title=0x7f09006c;
         public static final int txt_text=0x7f090008;
         public static final int txt_text4=0x7f0900ba;
+=======
+        public static final int textView10=0x7f090085;
+        public static final int textView11=0x7f090086;
+        public static final int textView2=0x7f09002d;
+        public static final int textView22=0x7f09009a;
+        public static final int textView3=0x7f09002e;
+        public static final int textView4=0x7f09002f;
+        public static final int textView5=0x7f09001c;
+        public static final int textView6=0x7f090081;
+        public static final int textView7=0x7f090082;
+        public static final int textView8=0x7f090083;
+        public static final int textView9=0x7f090084;
+        public static final int text_info=0x7f090098;
+        public static final int thirteenText1=0x7f090040;
+        public static final int thirteenText2=0x7f090041;
+        public static final int thirty_addBtn=0x7f090053;
+        public static final int thirty_col1=0x7f090077;
+        public static final int thirty_col2=0x7f090078;
+        public static final int thirty_col3=0x7f09007a;
+        public static final int thirty_col4=0x7f09007b;
+        public static final int thirty_col5=0x7f09007c;
+        public static final int thirty_col6=0x7f09007e;
+        public static final int thirty_col7=0x7f09007f;
+        public static final int thirty_editTxt=0x7f090055;
+        public static final int thirty_examBtn=0x7f090056;
+        public static final int thirty_fiveNext=0x7f090067;
+        public static final int thirty_five_personBtn1=0x7f09005b;
+        public static final int thirty_five_personBtn2=0x7f09005e;
+        public static final int thirty_five_personBtn3=0x7f090061;
+        public static final int thirty_five_personName1=0x7f09005c;
+        public static final int thirty_five_personName2=0x7f09005f;
+        public static final int thirty_five_personName3=0x7f090062;
+        public static final int thirty_five_personNumber1=0x7f09005d;
+        public static final int thirty_five_personNumber2=0x7f090060;
+        public static final int thirty_five_personNumber3=0x7f090063;
+        public static final int thirty_five_smsBtn=0x7f090066;
+        public static final int thirty_five_txt1=0x7f090059;
+        public static final int thirty_five_txt2=0x7f09005a;
+        public static final int thirty_five_txt3=0x7f090064;
+        public static final int thirty_four_BtnNext=0x7f09006f;
+        public static final int thirty_four_img1=0x7f09006b;
+        public static final int thirty_four_img2=0x7f09006d;
+        public static final int thirty_four_txt1=0x7f090069;
+        public static final int thirty_four_txt2=0x7f09006a;
+        public static final int thirty_four_txt3=0x7f09006c;
+        public static final int thirty_four_txt4=0x7f09006e;
+        public static final int thirty_listView=0x7f090057;
+        public static final int thirty_minusBtn=0x7f090054;
+        public static final int thirty_nextBtn=0x7f090058;
+        public static final int thirty_personBtn1=0x7f090049;
+        public static final int thirty_personBtn2=0x7f09004c;
+        public static final int thirty_personBtn3=0x7f09004f;
+        public static final int thirty_personName1=0x7f09004a;
+        public static final int thirty_personName2=0x7f09004d;
+        public static final int thirty_personName3=0x7f090050;
+        public static final int thirty_personNumber1=0x7f09004b;
+        public static final int thirty_personNumber2=0x7f09004e;
+        public static final int thirty_personNumber3=0x7f090051;
+        public static final int thirty_prevBtn=0x7f090044;
+        public static final int thirty_six_txt1=0x7f090070;
+        public static final int thirty_six_txt2=0x7f090071;
+        public static final int thirty_six_txt3=0x7f090072;
+        public static final int thirty_three_nextBtn=0x7f090080;
+        public static final int thirty_three_txt1=0x7f090075;
+        public static final int thirty_three_txt2=0x7f090076;
+        public static final int thirty_three_txt3=0x7f090079;
+        public static final int thirty_three_txt4=0x7f09007d;
+        public static final int thirty_title=0x7f090046;
+        public static final int thirty_txt1=0x7f090047;
+        public static final int thirty_txt2=0x7f090048;
+        public static final int thirty_txt3=0x7f090052;
+        public static final int twelveText=0x7f09003f;
+        public static final int twenty_eight_Btn1=0x7f09008c;
+        public static final int twenty_eight_Btn2=0x7f09008d;
+        public static final int twenty_eight_EditTxt1=0x7f09008e;
+        public static final int twenty_eight_examBtn=0x7f09008f;
+        public static final int twenty_eight_nextBtn=0x7f090091;
+        public static final int twenty_eight_prevBtn=0x7f090087;
+        public static final int twenty_eight_txt1=0x7f090089;
+        public static final int twenty_eight_txt2=0x7f09008a;
+        public static final int twenty_eight_txt3=0x7f09008b;
+        public static final int twenty_eight_txt4=0x7f090088;
+        public static final int twenty_seven_BtnNext=0x7f090093;
+        public static final int txt_1=0x7f090021;
+        public static final int txt_2=0x7f090022;
+        public static final int txt_3=0x7f090023;
+        public static final int txt_4=0x7f090024;
+        public static final int txt_5=0x7f090025;
+        public static final int txt_6=0x7f090026;
+        public static final int txt_ddd=0x7f090043;
+        public static final int txt_list1=0x7f090012;
+        public static final int txt_list2=0x7f090013;
+        public static final int txt_step_1_topic=0x7f090007;
+        public static final int txt_step_2_title=0x7f090095;
+        public static final int txt_step_2_two_title=0x7f090016;
+        public static final int txt_step_4_title=0x7f090068;
+        public static final int txt_step_5_title=0x7f09001d;
+        public static final int txt_text=0x7f090008;
+        public static final int txt_text4=0x7f090092;
+        public static final int webView1=0x7f09002c;
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
     }
     public static final class layout {
         public static final int activity_door=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_step2__list_=0x7f030002;
         public static final int activity_step2_two=0x7f030003;
+<<<<<<< HEAD
         public static final int ex_dialog=0x7f030004;
         public static final int fragment_page=0x7f030005;
         public static final int fragment_page10=0x7f030006;
@@ -294,11 +482,45 @@ public final class R {
         public static final int page_twenty_two=0x7f03001d;
         public static final int thirty_dialog=0x7f03001e;
         public static final int twenty_eight_dialog=0x7f03001f;
+=======
+        public static final int activity_step5__one=0x7f030004;
+        public static final int activity_step5__two=0x7f030005;
+        public static final int activity_webview_=0x7f030006;
+        public static final int ex_dialog=0x7f030007;
+        public static final int fragment_page=0x7f030008;
+        public static final int fragment_page10=0x7f030009;
+        public static final int fragment_page11=0x7f03000a;
+        public static final int fragment_page2=0x7f03000b;
+        public static final int fragment_page3=0x7f03000c;
+        public static final int fragment_page4=0x7f03000d;
+        public static final int fragment_page5=0x7f03000e;
+        public static final int fragment_page6=0x7f03000f;
+        public static final int fragment_page7=0x7f030010;
+        public static final int fragment_page8=0x7f030011;
+        public static final int fragment_page9=0x7f030012;
+        public static final int list_item=0x7f030013;
+        public static final int page_sixteen=0x7f030014;
+        public static final int page_thirty=0x7f030015;
+        public static final int page_thirty_five=0x7f030016;
+        public static final int page_thirty_four=0x7f030017;
+        public static final int page_thirty_six=0x7f030018;
+        public static final int page_thirty_three=0x7f030019;
+        public static final int page_twenty=0x7f03001a;
+        public static final int page_twenty_eight=0x7f03001b;
+        public static final int page_twenty_seven=0x7f03001c;
+        public static final int page_twenty_three=0x7f03001d;
+        public static final int page_twenty_two=0x7f03001e;
+        public static final int thirty_dialog=0x7f03001f;
+        public static final int twenty_eight_dialog=0x7f030020;
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
     }
     public static final class menu {
         public static final int main=0x7f080000;
         public static final int step2__list_=0x7f080001;
         public static final int step2_two=0x7f080002;
+        public static final int step5__one_=0x7f080003;
+        public static final int step5__two_=0x7f080004;
+        public static final int webview_=0x7f080005;
     }
     public static final class string {
         public static final int action_settings=0x7f060002;
@@ -346,6 +568,7 @@ public final class R {
         public static final int thirty_six_txt1=0x7f06000a;
         public static final int thirty_six_txt2=0x7f06000b;
         public static final int thirty_six_txt3=0x7f06000c;
+<<<<<<< HEAD
         public static final int thirty_txt1=0x7f060024;
         public static final int thirty_txt2=0x7f060025;
         public static final int thirty_txt3=0x7f060026;
@@ -356,6 +579,25 @@ public final class R {
         public static final int twenty_eight_txt1=0x7f060020;
         public static final int twenty_eight_txt2=0x7f060021;
         public static final int twenty_eight_txt3=0x7f060022;
+=======
+        public static final int thirty_txt1=0x7f060014;
+        public static final int thirty_txt2=0x7f060015;
+        public static final int thirty_txt3=0x7f060016;
+        public static final int title_activity_start__fragment=0x7f060026;
+        public static final int title_activity_step2__list_=0x7f060025;
+        public static final int title_activity_step2_two=0x7f060022;
+        public static final int title_activity_step5__one_=0x7f060027;
+        public static final int title_activity_step5__one_text=0x7f060029;
+        public static final int title_activity_step5__one_text2=0x7f06002a;
+        public static final int title_activity_step5__one_text3=0x7f06002b;
+        public static final int title_activity_step5__one_title=0x7f060028;
+        public static final int title_activity_step5__two_=0x7f06002c;
+        public static final int title_activity_webview_=0x7f06002d;
+        public static final int twenty_eight_exam=0x7f060013;
+        public static final int twenty_eight_txt1=0x7f060010;
+        public static final int twenty_eight_txt2=0x7f060011;
+        public static final int twenty_eight_txt3=0x7f060012;
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
     }
     public static final class style {
         /** 

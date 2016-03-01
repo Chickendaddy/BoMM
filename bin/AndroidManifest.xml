@@ -13,47 +13,79 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Light.NoTitleBar" >
+<<<<<<< HEAD
         
         <activity android:name=".Page_Thirty_Seven" />
+=======
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
         <activity android:name=".Page_Thirty_Six" />
         <activity android:name=".Page_Thirty_Three" />
-        <activity android:name=".Page_SixTeen" />       
-        <activity android:name=".Page_Twenty_Two" />       
-        <activity android:name=".Page_Twenty_Three"/>   
+        <activity android:name=".Page_SixTeen" />
+        <activity android:name=".Page_Twenty_Two" />
+        <activity android:name=".Page_Twenty_Three" />
         <activity android:name=".Page_Twenty" />
         <activity android:name=".MainActivity" />
+<<<<<<< HEAD
         <activity android:name=".Page_Twenty_Seven" />       
         <activity android:name="Page_Twenty_Eight" />
 		<activity android:name=".Page_Thirty_Five" />
 		<activity android:name=".Page_Thirty_Foru" />
         
+=======
+        <activity android:name=".Page_Twenty_Seven" />
+        <activity android:name=".Page_Twenty_Eight" />
+        <activity android:name=".Page_Thirty_Five" />
+        <!-- <activity android:name=".Page_Thirty_Foru" /> -->
+
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
         <activity
             android:name=".Page_Thirty"
             android:windowSoftInputMode="adjustPan" />
-        
         <activity
             android:name=".Step2_two"
             android:label="@string/title_activity_step2_two" />
-        
         <activity
             android:name=".Step2_List_Activity"
             android:label="@string/title_activity_step2__list_" />
-            
         <activity
+<<<<<<< HEAD
             android:name=".Page_Fourty_Nine"
             android:label="@string/app_name" 
+=======
+            android:name=".Page_Thirty_Foru"
+            android:label="@string/app_name"
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
             android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".Step5_One_Activity"
+            android:label="@string/title_activity_step5__one_" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Step5_Two_Activity"
+            android:label="@string/title_activity_step5__two_" >
+        </activity>
+        <activity
+            android:name=".Webview_Activity"
+            android:label="@string/title_activity_webview_" >
+        </activity>
     </application>
+<<<<<<< HEAD
    
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS"/>
     <uses-permission android:name="android.permission.CALL_PHONE" />
 	<uses-permission android:name="android.permission.DIAL_PHONE" />
+=======
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+>>>>>>> 501e8833739d961e79dfb31e14966efdc1802f9b
 
 </manifest>
