@@ -111,6 +111,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:layout_marginRight="60dp"
                             android:text="한국청소년상담전화"
                             android:textSize="8pt" />
 
@@ -118,10 +119,12 @@
                             android:id="@+id/txt_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
                             android:layout_weight="1"
-                            android:gravity="center"
+                            android:gravity="left"
                             android:text="1388"
                             android:textSize="8pt" />
+
                     </LinearLayout>
 
                     <LinearLayout
@@ -191,7 +194,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="나와 가장 가까운 정신건강증진센터 찾아보기"
-                        android:textSize="7pt" />
+                        android:textSize="6pt" 
+                        android:gravity="center"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -220,7 +224,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5pt"
-                        android:text="예) 성동구 정신건강증진센터,\n 동대문구 정신건강증진센터,\n 광명시 정신건강증진센터"
+                        android:layout_marginTop="20dp"
+                        android:text="예) 성동구 정신건강증진센터\n&#160;&#160;&#160;&#160;&#160;동대문구 정신건강증진센터\n&#160;&#160;&#160;&#160;&#160;광명시 정신건강증진센터"
                         android:textSize="8pt" />
                 </LinearLayout>
             </ScrollView>

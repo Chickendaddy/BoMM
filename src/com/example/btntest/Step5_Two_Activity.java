@@ -50,7 +50,7 @@ public class Step5_Two_Activity extends Activity {
 				String str = edit_search.getText().toString();
 
 				if (str.length() < 1) {
-					Toast.makeText(getApplicationContext(), "ë‚´ìš©ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.", Toast.LENGTH_LONG).show();
+					Toast.makeText(getApplicationContext(), "³»¿ëÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.", Toast.LENGTH_LONG).show();
 				} else {
 					Intent intent = new Intent(Step5_Two_Activity.this, Webview_Activity.class);
 					intent.putExtra("name", str);
@@ -65,8 +65,11 @@ public class Step5_Two_Activity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-
-				// 6ë‹¨ê³„ ì•¡í‹°ë¹„í‹°
+				
+				Intent intent = new Intent(getApplicationContext(), Page_forty_two.class);
+				startActivity(intent);
+				finish();
+				
 			}
 		});
 
@@ -82,15 +85,15 @@ public class Step5_Two_Activity extends Activity {
 		});
 
 		TextView tv = (TextView) findViewById(R.id.txt_1);
-		tv.setText(Html.fromHtml("<a href = \"https://www.cyber1388.kr:447/new/index.asp\">í•œêµ­ì²­ì†Œë…„ìƒë‹´ì „í™”"));
+		tv.setText(Html.fromHtml("<a href = \"https://www.cyber1388.kr:447/new/index.asp\">ÇÑ±¹Ã»¼Ò³â»ó´ãÀüÈ­"));
 		tv.setMovementMethod(LinkMovementMethod.getInstance());
 
 		TextView tv1 = (TextView) findViewById(R.id.txt_3);
-		tv1.setText(Html.fromHtml("<a href = \"http://www.lifeline.or.kr\">í•œêµ­ìƒëª…ì˜ì „í™”"));
+		tv1.setText(Html.fromHtml("<a href = \"http://www.lifeline.or.kr\">ÇÑ±¹»ı¸íÀÇÀüÈ­"));
 		tv1.setMovementMethod(LinkMovementMethod.getInstance());
 
 		TextView tv2 = (TextView) findViewById(R.id.txt_5);
-		tv2.setText(Html.fromHtml("<a href = \"http://www.counselling.or.kr\">ìì‚´ì˜ˆë°©í•«ë¼ì¸"));
+		tv2.setText(Html.fromHtml("<a href = \"http://www.counselling.or.kr\">ÀÚ»ì¿¹¹æÇÖ¶óÀÎ"));
 		tv2.setMovementMethod(LinkMovementMethod.getInstance());
 		Linkify.addLinks(txtPhone1, Linkify.PHONE_NUMBERS);
 

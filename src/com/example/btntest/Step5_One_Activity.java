@@ -47,7 +47,7 @@ public class Step5_One_Activity extends Activity {
 
 		StringBuilder strBuildr = new StringBuilder(str);
 		strBuildr.insert(0, " _____");
-		String str1 = strBuildr + "\n" + "ì „ë¬¸ì ì¸ ì˜ë£Œì§„ í˜¹ì€ ì‹¬ë¦¬ìƒë‹´ì‚¬ë“¤ì˜ ë„ì›€ì´ í•„ìš”í•œ ë•Œ ì…ë‹ˆë‹¤.\n\n";
+		String str1 = strBuildr + "\n" + "Àü¹®ÀûÀÎ ÀÇ·áÁø È¤Àº ½É¸®»ó´ã»çµéÀÇ µµ¿òÀÌ ÇÊ¿äÇÑ ¶§ ÀÔ´Ï´Ù.\n\n";
 
 		String str2 = str1 + strBuildr1;
 		SpannableStringBuilder sps = new SpannableStringBuilder();

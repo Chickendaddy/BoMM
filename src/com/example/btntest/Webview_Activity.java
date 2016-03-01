@@ -49,7 +49,7 @@ public class Webview_Activity extends Activity {
 			// TODO Auto-generated method stub
 			super.onPageFinished(view, url);
 			String str = "[$]\\(\"._searchView\"\\).css\\(\"display\",\"block\"\\)";
-			String str2 = "[$]\\('input\\[name=search_query\\]'\\).attr\\('value',\"ÏÑ±ÎèôÍµ¨\"\\)";
+			String str2 = "[$]\\('input\\[name=search_query\\]'\\).attr\\('value',\"º∫µø±∏\"\\)";
 			webView.loadUrl("javascript:" + str + str2);
 		}
 

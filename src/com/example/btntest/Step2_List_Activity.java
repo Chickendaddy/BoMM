@@ -17,6 +17,7 @@ public class Step2_List_Activity extends Activity {
 	TextView list_2;
 	
 	ImageButton prev;
+	Button twenty_six_nextBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,21 @@ public class Step2_List_Activity extends Activity {
 
 		list_1.setText(Globals.getInstance().getList_1());
 		list_2.setText(Globals.getInstance().getList_2());
+		
+		twenty_six_nextBtn = (Button)findViewById(R.id.twenty_six_nextBtn);
+		
+		twenty_six_nextBtn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				Intent intent = new Intent(getApplicationContext(), Page_Twenty_Seven.class);
+				startActivity(intent);
+				finish();
+				
+			}
+		});
 		
 		//prev = (ImageButton)findViewById(R.id.btn_prev3);
 		

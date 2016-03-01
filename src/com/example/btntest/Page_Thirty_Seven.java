@@ -208,6 +208,10 @@ public class Page_Thirty_Seven extends Activity{
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
+				Intent intent = new Intent(getApplicationContext(), Step5_One_Activity.class);
+				startActivity(intent);
+				finish();
+				
 			}
 		});
 		
