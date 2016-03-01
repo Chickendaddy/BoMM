@@ -88,10 +88,14 @@ public class Page_Thirty_Three extends Activity{
 			thirty_col2.setText(sequence + Globals.getInstance().getList_4());
 		else	
 			thirty_col2.setText(sequence);
-
-		thirty_col3.setText(sequence + Globals.getInstance().getPersonName1());
-		thirty_col4.setText(sequence + Globals.getInstance().getPersonName2());
-		thirty_col5.setText(sequence + Globals.getInstance().getPersonName3());
+		
+		String personName1 = sequence + Globals.getInstance().getPersonName11() + " " + Globals.getInstance().getPersonNumber11();
+		String personName2 = sequence + Globals.getInstance().getPersonName22() + " " + Globals.getInstance().getPersonNumber33();
+		String personName3 = sequence + Globals.getInstance().getPersonName33() + " " + Globals.getInstance().getPersonNumber33();
+		
+		thirty_col3.setText(personName1);
+		thirty_col4.setText(personName2);
+		thirty_col5.setText(personName3);
 		thirty_col6.setText(sequence + Globals.getInstance().getDo1());
 		
 		if(null != Globals.getInstance().getDo2())

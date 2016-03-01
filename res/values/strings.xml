@@ -14,9 +14,29 @@
 어떤 상황, 어떤 일들이나 생각들이 나를 괴롭히고 힘들게 하며, 죽고 싶다는 생각이나 그런 기분으로 이어지게 하는지, 빨간 신호등을 본인 스스로 확인하는 것이 중요합니다.\n\n
 가장 최근에 나에게 버겁고 무거웠던 상황, 일, 혹은 생각들이 무엇이었는지 적어보세요.</string>
 
-    <string name="thirty_six_txt1">떠오르는 사람이 없는데..\n도와달라고 했는데 싫어하면, 거절하면 어떻하지?\n아예 모르는 사람이었으면 좋겠어..</string>
+    <string name="thirty_six_txt1">떠오르는 사람이 없는데..\n\n도와달라고 했는데 싫어하면, 거절하면 어떡하지?\n\n아예 모르는 사람이었으면 좋겠어..</string>
     <string name="thirty_six_txt2">혹시 이런 생각들로 주저하고 망설이고 있다면,</string>
     <string name="thirty_six_txt3">여기 친구의 이야기를 아무런 편견없이, 조건없이 귀 기울여 들어주는 지역사회 기관들이 있습니다. 사회적 지지체계로 아래 기관들을 선택해 보세요.</string>
+    <string name="thirty_seven_txt1">5. 기관</string>
+    
+    <string name="fourty_nine_title1">‘삐뽀삐뽀, 내 마음의 빨간 신호등 알아차리기’</string>
+    <string name="fourty_nine_title2">‘나를 괴롭히는 것들! 저리가!’</string>
+    <string name="fourty_nine_title3">‘훅 날려버릴까? 툭! 털어버릴까?’</string>
+    <string name="fourty_nine_title4">‘나 혼자 힘으론 안되겠다, 도와줘!’</string>
+    <string name="fourty_nine_title5">‘부글부글 끓고 있어요, 내 얘기를 들어주세요!’</string>
+    <string name="fourty_nine_title6">‘위기상황! 119!’</string>
+    <string name="fourty_nine_title7">전화 및 인터넷 상담</string>
+    <string name="fourty_nine_title8">한국청소년상담전화&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1388</string>
+    <string name="fourty_nine_title9">한국생명의전화&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1588-9191</string>
+    <string name="fourty_nine_title10">자살예방핫라인&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1577-0199</string>
+        
+    <string name="fourty_nine_title13">직접방문 및 상담</string>
+    <string name="fourty_nine_title14">성동구 정신건강증진센터&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;032-000-0000</string>
+        
+    <string name="fourty_nine_title11"><![CDATA["◆"]]>전화번호를 누르면 해당 기관으로 연결됩니다.</string>
+    <string name="fourty_nine_title12"><![CDATA["◆"]]>기관명을 누르면 인터넷 상담이 가능한 사이트로 이동합니다.</string>
+    
+    <string name="fourty_nine_title15">나 스스로에게 심각하고 위급한 응급상황이 발생하면 아이콘을 눌러 119로 연락합니다.</string>
     
     <string name="thirty_four_txt3">내가 자살에 대해 말하면 그들이 날 어떻게 생각할까?..\n\n그들에게 부담주기 싫어..\n\n날 돕기 싫어할 수도 있어..</string>
     <string name="thirty_five_txt1">그들에게 기회를 주세요.</string>

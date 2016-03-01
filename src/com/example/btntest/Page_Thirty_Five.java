@@ -173,7 +173,7 @@ public class Page_Thirty_Five extends Activity{
 			return;
 			
 		}
-		
+	/*
 		String SENT = "SMS_SENT";
 		String DELIVERED = "SMS_DELIVERED";
 		
@@ -207,7 +207,7 @@ public class Page_Thirty_Five extends Activity{
                         break;
                 }
             }
-        }, new IntentFilter(SENT));
+        }, new IntentFilter(SENT)); */
         
        /*
         registerReceiver(new BroadcastReceiver(){

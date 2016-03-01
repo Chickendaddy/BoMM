@@ -84,7 +84,7 @@
                         android:textSize="7pt" />
 
                     <TextView
-                        android:id="@+id/txt_step_4_title"
+                        android:id="@+id/thirty_six_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/step_4_title"
@@ -121,7 +121,8 @@
                     android:gravity="center" 
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/thirty_four_txt3" />
+                    android:text="@string/thirty_six_txt1"
+                    android:textSize="7pt" />
 
                 <ImageView
                     android:id="@+id/thirty_four_img2"
@@ -143,7 +144,7 @@
                     android:id="@+id/thirty_six_txt2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="@string/thirty_six_txt2" />
 
             </LinearLayout>
 
@@ -157,7 +158,8 @@
                     android:id="@+id/thirty_six_txt3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="@string/thirty_six_txt3" 
+                    android:textSize="6pt"/>
 
             </LinearLayout>
 
@@ -167,17 +169,17 @@
                 android:orientation="vertical" 
                 android:layout_weight="0.2" >
 
-                <CheckedTextView
-                    android:id="@+id/checkedTextView1"
+                <CheckBox
+                    android:id="@+id/thirty_six_checkBox1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CheckedTextView" />
+                    android:text="한국청소년상담전화 1388" />
 
-                <CheckedTextView
-                    android:id="@+id/checkedTextView2"
+                <CheckBox
+                    android:id="@+id/thirty_six_checkBox2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CheckedTextView" />
+                    android:text="한국생명의전화 1588-9191" />
 
             </LinearLayout>
 
@@ -195,7 +197,7 @@
             android:gravity="center">
 
             <ImageButton
-                android:id="@+id/thirty_four_BtnNext"
+                android:id="@+id/thirty_six_BtnNext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/right" />

@@ -141,6 +141,39 @@ public class Globals {
 		this.thirty_personNumber3 = number3;
 	}
 	
+	public String getPersonName11(){
+		
+		return this.thirty_personName1;
+	}
+	
+	public String getPersonName22(){
+		
+		return this.thirty_personName2;
+	}
+	
+	public String getPersonName33(){
+		
+		return this.thirty_personName3;
+	}
+	
+	public String getPersonNumber11(){
+		
+		return this.thirty_personNumber1;
+		
+	}
+	
+	public String getPersonNumber22(){
+		
+		return this.thirty_personNumber2;
+		
+	}
+	
+	public String getPersonNumber33(){
+		
+		return this.thirty_personNumber3;
+		
+	}
+	
 	public String getPersonName1(){
 		
 		thirty_personName1 += " ";
@@ -152,7 +185,8 @@ public class Globals {
 	public String getPersonName2(){
 		
 		thirty_personName2 += " ";
-		thirty_personName2 += thirty_personNumber2;
+		thirty_personName2 +=
+		thirty_personNumber2;
 		
 		return this.thirty_personName2;
 	}
