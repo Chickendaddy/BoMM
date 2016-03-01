@@ -1,0 +1,432 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6edf3"
+    android:orientation="vertical"
+    tools:context="com.project_spring.Start_Spring_Activity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:orientation="vertical" 
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" 
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.1" >
+
+            <ImageButton
+                android:id="@+id/thirty_prevBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/left" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="1" 
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF">
+            
+            <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:background="#e6edf3" >
+
+                <ImageView
+                    android:id="@+id/image_num4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/num3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/thirty_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/step_3_title"
+                        android:textSize="7pt" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+                    android:orientation="vertical"
+                    android:layout_weight="0.01" >
+
+                    <TextView
+                        android:id="@+id/thirty_txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/thirty_txt1" 
+                        android:textSize="9pt"/>
+
+                    <TextView
+                        android:id="@+id/thirty_txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/thirty_txt2" 
+                        android:layout_marginTop="5dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" 
+                        android:gravity="center"
+                        android:layout_marginTop="10dp">
+					
+					<LinearLayout 
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"    
+					    android:orientation="vertical" 
+					    android:layout_weight="0.5" 
+					    android:gravity="center" >
+					    
+                        <ImageButton
+                            android:id="@+id/thirty_personBtn1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/left" />
+
+                        <TextView
+                            android:id="@+id/thirty_personName1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="이름"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <TextView
+                            android:id="@+id/thirty_personNumber1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="연락처"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                        
+                    </LinearLayout>
+                    
+					<LinearLayout 
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"    
+					    android:orientation="vertical"
+					    android:layout_weight="0.5"
+					    android:gravity="center" >
+
+                        <ImageButton
+                            android:id="@+id/thirty_personBtn2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/left" />
+
+                        <TextView
+                            android:id="@+id/thirty_personName2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="이름"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <TextView
+                            android:id="@+id/thirty_personNumber2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="연락처"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                        
+                    </LinearLayout>
+                    
+					<LinearLayout 
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"    
+					    android:orientation="vertical"
+					    android:layout_weight="0.5"
+					    android:gravity="center" >
+
+                        <ImageButton
+                            android:id="@+id/thirty_personBtn3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/left" />
+
+                        <TextView
+                            android:id="@+id/thirty_personName3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="이름"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <TextView
+                            android:id="@+id/thirty_personNumber3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="연락처"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                        
+                    </LinearLayout>
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="0.5" 
+                            android:gravity="bottom">
+
+                            <TextView
+                                android:id="@+id/thirty_txt3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/thirty_txt3"
+                                android:textSize="9pt" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" 
+                            android:gravity="center"
+                            android:layout_weight="0.5">
+
+                            <Button
+                                android:id="@+id/thirty_addBtn"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#3498DB"
+                                android:textColor="#FFFFFF"
+                                android:layout_marginLeft="5dp"
+                                android:width="30dp"
+                				android:height="30dp"
+                				android:textSize="6pt"
+                				android:textStyle="bold"
+                                android:text="+" />
+
+                            <Button
+                                android:id="@+id/thirty_minusBtn"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#3498DB"
+                                android:textColor="#FFFFFF"
+                                android:layout_marginLeft="5dp"
+                                android:width="30dp"
+                				android:height="30dp"
+                				android:textSize="6pt"
+                				android:textStyle="bold"
+                                android:text="-" />
+
+                        </LinearLayout>
+                  
+                    </LinearLayout>   <!--  -->
+                    
+                                        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp" 
+                        android:layout_weight="0.01"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/thirty_editTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10" 
+                            android:textSize="15sp"
+                            android:hint="사회적 장소에서 내가 할 수 있는 활동 생각해보기">
+
+                            <requestFocus />
+                        </EditText>
+
+                    </LinearLayout>
+                    
+                                                        <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" 
+                    android:layout_weight="0.01"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/thirty_examBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#3498DB"
+                    android:height="30dp"
+                    android:text="예시보기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="6pt"
+                    android:textStyle="bold"
+                    android:width="80dp" />
+
+                </LinearLayout>
+                
+                                                                        <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" 
+                    android:layout_weight="0.8">
+                    
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" 
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp" >
+                    
+                            <ListView
+                                
+                                android:id="@+id/thirty_listView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_marginTop="5dp" >
+
+        					</ListView>
+                    
+                </LinearLayout>
+
+                    
+                </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" 
+            android:layout_weight="0.01" 
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/thirty_nextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="12dp"
+        	android:layout_marginRight="12dp"
+        	android:layout_weight="1"
+            android:src="@drawable/visable_home" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="12dp"
+        	android:layout_marginRight="12dp"
+        	android:layout_weight="1"
+            android:src="@drawable/visable_signal" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="12dp"
+        	android:layout_marginRight="12dp"
+        	android:layout_weight="1"
+            android:src="@drawable/visable_graph" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:layout_marginLeft="12dp"
+        	android:layout_marginRight="12dp"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:src="@drawable/visable_pos" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+        	android:layout_marginRight="12dp"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:src="@drawable/visable_heart" />
+
+    </LinearLayout>
+
+</LinearLayout>

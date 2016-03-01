@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BtnTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="step_1">첫 번째 단계는</string>
+    <string name="step_4">네 번째 단계는</string>
+    <string name="step_2_title">두 번째 단계는 ‘나를 괴롭히는 것들! 저리가!’입니다.</string>
+    <string name="step_3_title">세 번째 단계는 ‘훅 날려버릴까? 툭! 털어버릴까?’입니다.</string>
+    <string name="step_4_title">‘나 혼자 힘으론 안되겠다, 도와줘!’입니다.</string>
+    <string name="step_1_topic">‘삐뽀삐뽀, 내 마음의 빨간 신호등 알아차리기’입니다.</string>
+    <string name="step_1_text">제일 먼저, 내 마음의 브레이크가 작동해야 할 상황을 아는 것이 첫 번째입니다. 자동차로 비유하자면 빨간 신호등일 때 브레이크를 밟아 멈춰야 하는 것처럼 말이예요.\n\n
+어떤 상황, 어떤 일들이나 생각들이 나를 괴롭히고 힘들게 하며, 죽고 싶다는 생각이나 그런 기분으로 이어지게 하는지, 빨간 신호등을 본인 스스로 확인하는 것이 중요합니다.\n\n
+가장 최근에 나에게 버겁고 무거웠던 상황, 일, 혹은 생각들이 무엇이었는지 적어보세요.</string>
+
+    <string name="thirty_six_txt1">떠오르는 사람이 없는데..\n도와달라고 했는데 싫어하면, 거절하면 어떻하지?\n아예 모르는 사람이었으면 좋겠어..</string>
+    <string name="thirty_six_txt2">혹시 이런 생각들로 주저하고 망설이고 있다면,</string>
+    <string name="thirty_six_txt3">여기 친구의 이야기를 아무런 편견없이, 조건없이 귀 기울여 들어주는 지역사회 기관들이 있습니다. 사회적 지지체계로 아래 기관들을 선택해 보세요.</string>
+    
+    <string name="thirty_four_txt3">내가 자살에 대해 말하면 그들이 날 어떻게 생각할까?..\n\n그들에게 부담주기 싫어..\n\n날 돕기 싫어할 수도 있어..</string>
+    <string name="thirty_five_txt1">그들에게 기회를 주세요.</string>
+    <string name="thirty_five_txt3">이들에게 아래 메시지를 보내길 원한다면, 문자전송 버튼 을 눌러주세요. 메시지 수정을 원하면 창을 눌러주세요.</string>
+    <string name="twenty_eight_txt1">1. 언제</string>
+    <string name="twenty_eight_txt2">나만의 대처전략으로도 죽고 싶다는 생각이 계속 들 때</string>
+    <string name="twenty_eight_txt3">2. 어디서</string>
+    <string name="twenty_eight_exam">[예시]\n\n운동장, 집주변 공원, 홍대나 명동과 같이 사람 많은 거리, CW영화관, 버거왕 패스트푸드점, 오락실, 만화방, 교회, 놀이공원, 별다방, 다있소, 집플러스, 오마트, 상어떡뽀끼, 다나와 쇼핑몰 등</string>
+    <string name="thirty_txt1">3. 누구와</string>
+    <string name="thirty_txt2">친구나, 가족, 내가 믿고 의하는 사람들과 함께하며, 가끔은 혼자여도 괜찮습니다.</string>
+    <string name="thirty_txt3">4. 무엇을</string>
+    <string name="thirty_exam">[예시]\n\n농구하기, 만화책보기, 게임하기, 수다떨기, 아이쇼핑하기, 기도하기, 맛있는 거 먹기, 지나가는 사람 구경하기, 배우고 있는 악기나 운동 다시 해보기 등 </string>
+	<string name="thirty_five_msg">내가 힘들 때 내 얘길 들어주고 옆에 있어주길 부탁할께</string>
+    <string name="step_20_text">그 때 내 기분은 어땠지? 화, 분노, 슬픔, 무기력함 등이었나? 그 때 들었떤 기분에 대해 적어보세요.</string>
+    <string name="step_2_text_part1">자살생각이 들 때 즉시 그 자리에서 해볼 수 있는, 기분이 편안해지는 나만의 방법, 부정적인 감정을 확! 제압해버릴 수 있도록 무엇인가에 몰입할 수 있는</string>
+    <string name="step_2_text_part2">친구 만의 방법이 있다면 가장 좋아하는 활동부터 적어보세요.\n\n이제 우리는 이 방법들을 대처전략이라고 부르겠습니다.</string>
+    <string name="step_2_text_part3">혹시 나만의 대처전략을 찾는 것이 조금 어렵나요?\n  여기   친구와 비슷한 경험을 가진                 \n친구의 이야기를 들어볼까요? </string>
+    <string name="dialog_person1">"뛰거나.. 그냥 동네한바퀴요.. 
+아님 윗몸일으키기나 샌드백 좀 하고, 
+친구만나서 얘기도 하고..  
+생각안하려고 더 일부러 막 오버하고 
+재밌는 얘기 하고 그랬어요.."</string>
+    <string name="dialog_person2">"일기 썼어요.. 
+초등학교 때도 쓰지 않았던 일기를..             
+그냥 힘든거 있음 일기 쓰는데.. 
+일부러 나쁜 말 안쓰고 좋은 말만                
+ 쏙 골라서 썼던 것 같아요.. 힘들 때마다       
+ 그거 꺼내보고 그랬어요.. 일부러 일기장은 예쁜 일기장 이런 것만 사서 좋은 말만         썼어요.."</string>
+    <string name="dialog_person3">"주로 밤이나 새벽에 우울해지는데.. \n
+걍 자요..  물론 잠이 잘 안오긴 하는데...\n
+그러면 핸드폰으로 음악 듣거나       
+  슬픈 음악 나오면 울다가..              
+ 뭐 그런 식으로 풀었던 것 같아요.."</string>
+    <string name="dialog_person4">"...그냥...방치웠어요.. TV도 보고.. \n
+저는 강아지를 키워서, \n
+강아지랑 놀고 계속 말걸고 집도 치워주고.. 그러다 보면 아무 생각이 안들어요..."</string>
+    <string name="dialog_person5">"용돈 좀 모아서 사고싶은 거 구경하고 사고..  그러면서 스트레스도 좀 풀고...\n
+저는 신발 운동화 좋아해서.. \n
+그냥 그런 나쁜 생각 들 때 밖으로 나가서       신상 구경하고, 맘에 드는거 있으면,\n           
+그 때부터 용돈 모아서 그거 사겠다는 목표로.. 그러면 또 그런 생각이 안들었어요.."</string>
+    <string name="title_activity_step2_two">Step2_two</string>
+    <string name="step_2_two_text">앞의 사례처럼, 여기 비슷한 고민으로 힘들어하던 친구들이 자살 생각을 극복하기 위해 실제로 사용하고 효과가 있었던 대처전략들이 있습니다. 친구가 생각했던 방법들과 비슷하거나 혹시 전혀 예상치 못한 대처전략들이 있나요? 나만의 대처전략으로 시도해 보고 싶은 활동들이 있다면 선택해보세요. 그리고 그 방법들이 큰 거부감이 들지 않는다면, 지금 한번 시도해 보세요.</string>
+    <string name="step_27_text">혹시 나만의 대처 전략으로도 나를 해치려는 부정적인 생각이나 기분이 사라지지 않는다면...\n\n사람들이 모이는 장소로 나가봅니다. 그곳에서 다양한 활동을 하면서 툭툭! 부정적인 감정들을 털어버리는 겁니다. 마치 쓰레기를 버리듯이 마음 속의 힘들고 괴로운 감정들, 생각들을 버리고 온다고 생각하세요.\n\n
+        예를 들어, 친구와 운동장에서 축구나 농구를 해도 좋고, 그냥 동네 한바퀴 뛰거나 버스나 지하철을 타고 다른 동네 구경하는 것과 같습니다. 혼자서 서점에서 만화책 등을 구격하고 잃어보는 것도 괜찮고, 쇼핑몰을 가서 신상 구경하고 수다를 떨어도 좋아요. 그러면서 무겁고 버거웠던 생각들을 날려버리거나 털어버리는 겁니다.\n\n
+        이처럼 3단계에서 할 수 있는 _______친구의 사회적 장소, 사회적 활동들을 적어보겠습니다.</string>
+    <string name="title_activity_step2__list_">Step2_List_Activity</string>
+    <string name="title_activity_start__fragment">Start_Fragment</string>
+
+</resources>
