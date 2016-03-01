@@ -9,10 +9,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:gravity="center"
         android:layout_weight="5"
-        android:orientation="vertical" 
-        android:background="#FFFFFF">
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical" >
 
         <ImageView
             android:id="@+id/imageView1"
@@ -24,9 +24,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
         android:layout_weight="300"
-        android:orientation="horizontal"
-        android:layout_marginBottom="50dp" >
+        android:orientation="horizontal" >
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -35,18 +35,17 @@
             android:gravity="center" >
 
             <ImageButton
-                android:id="@+id/imageButton1"
+                android:id="@+id/imgbtn_prev"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/left" />
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" 
+            android:layout_height="match_parent"
             android:layout_weight="20"
-            android:gravity="center">
+            android:gravity="center" >
 
             <TextView
                 android:id="@+id/fiveText"
@@ -55,23 +54,20 @@
                 android:gravity="center"
                 android:text="Large Text"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" 
+            android:layout_height="match_parent"
             android:layout_weight="5"
-            android:gravity="center">
+            android:gravity="center" >
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/imgbtn_next"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/right" />
-
         </LinearLayout>
-        
     </LinearLayout>
 
 </LinearLayout>

@@ -69,5 +69,8 @@
     <string name="title_activity_step5__one_text3">우리 주변에는 청소년들을 위한 전문상담기관 등이 365일 언제나  친구의 이야기를, 여러분의 입장에서, 아무런 편견없이, 귀기울여 들을 준비를 하고 있습니다. 전화 혹은 인터넷으로도 상담이 가능하며,  직접 방문을 해도 됩니다.의 도움이 필요한 때 입니다. </string>
     <string name="title_activity_step5__two_">Step5_Two_Activity</string>
     <string name="title_activity_webview_">Webview_Activity</string>
+    <string name="title_activity_login_">Login_Activity</string>
+    <string name="title_activity_sigh_">Sigh_Activity</string>
+    <string name="title_activity_find_">Find_Activity</string>
 
 </resources>

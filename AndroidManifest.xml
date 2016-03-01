@@ -42,11 +42,8 @@
         <activity
             android:name=".Step5_One_Activity"
             android:label="@string/title_activity_step5__one_" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        </activity>
+        <activity android:name=".Door" >
         </activity>
         <activity
             android:name=".Step5_Two_Activity"
@@ -55,6 +52,23 @@
         <activity
             android:name=".Webview_Activity"
             android:label="@string/title_activity_webview_" >
+        </activity>
+        <activity
+            android:name=".Login_Activity"
+            android:label="@string/title_activity_login_" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sigh_Activity"
+            android:label="@string/title_activity_sigh_" >
+        </activity>
+        <activity
+            android:name=".Find_Activity"
+            android:label="@string/title_activity_find_" >
         </activity>
     </application>
 
