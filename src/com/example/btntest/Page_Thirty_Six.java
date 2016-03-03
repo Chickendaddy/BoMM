@@ -21,7 +21,7 @@ public class Page_Thirty_Six extends Activity{
 	TextView thirty_six_txt1;
 	TextView thirty_six_txt3;
 	
-	ImageButton thirty_six_BtnNext;
+	Button thirty_six_BtnNext;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,10 @@ public class Page_Thirty_Six extends Activity{
 		thirty_six_txt1 = (TextView)findViewById(R.id.thirty_six_txt1);
 		thirty_six_txt3 = (TextView)findViewById(R.id.thirty_six_txt3);
 		
-		thirty_six_BtnNext = (ImageButton)findViewById(R.id.thirty_six_BtnNext);
+		thirty_six_BtnNext = (Button)findViewById(R.id.thirty_six_nextBtn);
+		
+		//String name = Globals.getInstance().getName();
+		String name = "null";
 		
 		String str = getString(R.string.step_4_title);
 		SpannableStringBuilder sps = new SpannableStringBuilder();
@@ -53,7 +56,7 @@ public class Page_Thirty_Six extends Activity{
 		///////////////////////
 		String str3 = getString(R.string.thirty_six_txt3);
 		StringBuilder strBuildr = new StringBuilder(str3);
-		strBuildr.insert(3, "______");
+		strBuildr.insert(3, name);
 		SpannableStringBuilder sps3 = new SpannableStringBuilder();
 		SpannableString ss3 = new SpannableString(strBuildr);
 		ss3.setSpan(new ForegroundColorSpan(Color.parseColor("#c5483b")), 28, 45, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);

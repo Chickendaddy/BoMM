@@ -88,7 +88,7 @@ public class Page_Thirty_Three extends Activity{
 			thirty_col2.setText(sequence + Globals.getInstance().getList_4());
 		else	
 			thirty_col2.setText(sequence);
-		
+
 		String personName1 = sequence + Globals.getInstance().getPersonName11() + " " + Globals.getInstance().getPersonNumber11();
 		String personName2 = sequence + Globals.getInstance().getPersonName22() + " " + Globals.getInstance().getPersonNumber33();
 		String personName3 = sequence + Globals.getInstance().getPersonName33() + " " + Globals.getInstance().getPersonNumber33();
@@ -111,11 +111,13 @@ public class Page_Thirty_Three extends Activity{
 				
 				Intent intent = new Intent(getApplicationContext(), Page_Thirty_Foru.class);
 				startActivity(intent);
+				overridePendingTransition(R.anim.slide_in_right, 0);
 				finish();
 				
 			}
 		});
 		
 	}
+
 
 }

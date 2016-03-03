@@ -120,12 +120,17 @@
                     android:text="@string/dialog_person5" />
             </LinearLayout>
 
-            <Button
-                android:id="@+id/btn_exit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="사례닫기" />
+           <Button
+            android:id="@+id/exit_examBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btndesign"
+            android:textColor="#FFFFFF"
+            android:width="70dp"
+            android:height="30dp"
+            android:text="사례닫기"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
         </LinearLayout>
     </ScrollView>
 

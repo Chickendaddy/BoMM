@@ -11,148 +11,119 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
-        android:orientation="vertical" 
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical" >
 
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/logo" 
-            android:background="#FFFFFF"/>
-
+            android:background="#FFFFFF"
+            android:src="@drawable/logo" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:layout_weight="5">
+        android:layout_height="wrap_content"
+        android:layout_weight="5" >
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="0.1" >
+            android:layout_weight="0.1"
+            android:gravity="center" >
 
             <ImageButton
                 android:id="@+id/BtnPrev"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/left" />
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical" 
-            android:layout_weight="1" >
-            
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:id="@+id/image_num1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/promise" />
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/image_num1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/promise" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="약속해요.."
+                            android:textSize="7pt" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/white"
                     android:gravity="center"
-                    android:orientation="vertical" >
+                    android:orientation="vertical"
+                    android:weightSum="3" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:layout_marginBottom="50px"
+                        android:background="@android:color/white"
+                        android:src="@drawable/ligits" />
 
                     <TextView
-
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
-                        android:text="약속해요.."
-                        android:textSize="7pt" />
-
-
-                </LinearLayout>
-            </LinearLayout>
-            
-                  <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="5"
-            android:layout_marginBottom="10dp"
-            android:gravity="top"
-            android:background="@android:color/white"
-            android:orientation="vertical" >
-
-                      <LinearLayout
-                          android:layout_width="280px"
-                          android:layout_height="250px"
-                          android:layout_marginBottom="10dp"
-                          android:layout_weight="5"
-                          android:background="@android:color/white"
-                          android:layout_gravity="center"
-                          android:orientation="horizontal" >
-
-                          <ImageView
-                              android:layout_width="match_parent"
-                              android:layout_height="match_parent"
-                             
-                             
-                              android:background="@android:color/white"
-                              android:src="@drawable/ligits" />
-                      </LinearLayout>
-            
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="30px"
-                android:layout_marginLeft="15dp"
-
-android:gravity="center"
-                android:text="신호등의 빨간 불이 켜지면\n자동차나 사람 모두 멈춰서야 합니다.\n 
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="100px"
+                        android:gravity="center"
+                        android:text="신호등의 빨간 불이 켜지면\n자동차나 사람 모두 멈춰서야 합니다.\n 
 누가 강제로 시키지 \n않아도 지켜야 하는\n사회적인 약속인 거죠.
 
 "
-                android:textSize="13sp" />
+                        android:textSize="15sp" />
 
-                        <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="10px"
-                android:background="@android:color/white" />
-
-        </LinearLayout>
-
-
-            
-
-
-                            
-        </LinearLayout>
-
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="10px"
+                        android:background="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" 
-            android:layout_weight="0.1" 
-            android:gravity="center">
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center" >
 
             <ImageButton
                 android:id="@+id/thirty_four_BtnNext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/right" />
-
         </LinearLayout>
-
     </LinearLayout>
 
     <LinearLayout
@@ -167,40 +138,40 @@ android:gravity="center"
             android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
             android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-        	android:layout_weight="1"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
             android:src="@drawable/visable_home" />
 
         <ImageButton
             android:id="@+id/imageButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
             android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-        	android:layout_weight="1"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
             android:src="@drawable/visable_signal" />
 
         <ImageButton
             android:id="@+id/imageButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
             android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-        	android:layout_weight="1"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
             android:src="@drawable/visable_graph" />
 
         <ImageButton
             android:id="@+id/imageButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-           	android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-            android:background="#FFFFFF"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
             android:layout_weight="1"
+            android:background="#FFFFFF"
             android:src="@drawable/visable_pos" />
 
         <ImageButton
@@ -208,11 +179,10 @@ android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-            android:background="#FFFFFF"
+            android:layout_marginRight="12dp"
             android:layout_weight="1"
+            android:background="#FFFFFF"
             android:src="@drawable/visable_heart" />
-
     </LinearLayout>
 
 </LinearLayout>

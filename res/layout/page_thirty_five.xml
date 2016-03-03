@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.project_spring.Start_Spring_Activity" >
 
-    <LinearLayout
+   <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
@@ -22,25 +22,16 @@
             android:background="#FFFFFF"/>
 
     </LinearLayout>
+    
+   <View 
+         android:layout_width="match_parent"
+         android:layout_height="1dip"
+         android:background="#828282"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
         android:layout_weight="5">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="0.1" >
-
-            <ImageButton
-                android:id="@+id/BtnPrev"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/left" />
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -105,6 +96,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.1"
+                    android:layout_marginLeft="20dp"
                     android:text="@string/thirty_five_txt1"
                     android:textSize="8pt" />
 
@@ -119,7 +111,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Medium Text"
-                        android:textSize="6pt"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textSize="7pt"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 </LinearLayout>
@@ -143,7 +137,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
-                            android:src="@drawable/left" />
+                            android:background="#FFFFFF"
+                            android:src="@drawable/bookperson" />
 
                         <TextView
                             android:id="@+id/thirty_five_personName1"
@@ -174,7 +169,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
-                            android:src="@drawable/left" />
+                            android:background="#FFFFFF"
+                            android:src="@drawable/bookperson" />
 
                         <TextView
                             android:id="@+id/thirty_five_personName2"
@@ -205,7 +201,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
-                            android:src="@drawable/left" />
+                            android:background="#FFFFFF"
+                            android:src="@drawable/bookperson" />
 
                         <TextView
                             android:id="@+id/thirty_five_personName3"
@@ -231,6 +228,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/thirty_five_txt3" 
                     android:layout_weight="0.1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"/>
 
                 <LinearLayout
@@ -271,7 +270,7 @@
                     		android:layout_width="wrap_content"
                     		android:layout_height="wrap_content"
                     		android:layout_marginTop="10dp"
-                    		android:background="#3498DB"
+                    		android:background="@drawable/btndesign"
                     		android:height="30dp"
                     		android:text="문자전송"
                     		android:textColor="#FFFFFF"
@@ -290,79 +289,156 @@
             
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent" 
-            android:layout_weight="0.1" 
-            android:gravity="center">
-
-            <ImageButton
-                android:id="@+id/thirty_fiveNext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/right" />
-
-        </LinearLayout>
-
     </LinearLayout>
+    
+        <LinearLayout 
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="0.1"
+        android:gravity="center">
+
+					<Button
+					android:id="@+id/thirty_five_nextBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btndesign"
+                    android:height="30dp"
+                    android:text="확인"
+                    android:textColor="#FFFFFF"
+                    android:textSize="6pt"
+                    android:textStyle="bold"
+                    android:width="80dp" />
+
+    	</LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.1"
+        android:layout_weight="0.01"
         android:background="#FFFFFF"
         android:gravity="center"
         android:orientation="horizontal" >
 
-        <ImageButton
-            android:id="@+id/imageButton3"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-        	android:layout_weight="1"
-            android:src="@drawable/visable_home" />
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-        	android:layout_weight="1"
-            android:src="@drawable/visable_signal" />
-
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-        	android:layout_weight="1"
-            android:src="@drawable/visable_graph" />
-
-        <ImageButton
-            android:id="@+id/imageButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-           	android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-            android:background="#FFFFFF"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
             android:layout_weight="1"
-            android:src="@drawable/visable_pos" />
+            android:gravity="center" >
 
-        <ImageButton
-            android:id="@+id/imageButton7"
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/visable_home"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_home"
+                android:textSize="5pt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-        	android:layout_marginRight="12dp"
-            android:background="#FFFFFF"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
             android:layout_weight="1"
-            android:src="@drawable/visable_heart" />
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/visable_signal"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_signal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_signal"
+                android:textSize="5pt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/visable_graph"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_graph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_graph"
+                android:textSize="5pt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/visable_pos"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_pos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_pos"
+                android:textSize="5pt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/visable_heart"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_119"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_119"
+                android:textSize="5pt"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

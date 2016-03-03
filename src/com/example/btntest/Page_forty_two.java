@@ -25,7 +25,11 @@ import android.widget.Toast;
 
 public class Page_forty_two extends Activity{
 
-	ImageButton btnNext;
+	Button forty_two_nextBtn;
+	
+	TextView step6_title;
+	TextView forty_two_txt1;
+	TextView forty_two_txt2;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -35,14 +39,30 @@ public class Page_forty_two extends Activity{
 		setContentView(R.layout.page_forty_two);
 
 
-		btnNext = (ImageButton)findViewById(R.id.thirty_four_BtnNext);
+		forty_two_nextBtn = (Button)findViewById(R.id.forty_two_nextBtn);
+		
+		step6_title = (TextView)findViewById(R.id.step6_title);
+		forty_two_txt1 = (TextView)findViewById(R.id.forty_two_txt1);
+		forty_two_txt2 = (TextView)findViewById(R.id.forty_two_txt2);
+		
+		//String name = Globals.getInstance().getName();
+		String name = "null";
+		
+		String str = getString(R.string.step6_title);
+		//StringBuilder strBuildr = new StringBuilder(str);
+		//strBuildr.insert(0, name);
+		SpannableStringBuilder sps = new SpannableStringBuilder();
+		SpannableString ss = new SpannableString(str);
+		ss.setSpan(new ForegroundColorSpan(Color.parseColor("#88b7d6")), 8, 18, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+		sps.append(ss);
+		step6_title.setText(sps);
 		
 		
-		final ImageButton call = (ImageButton)findViewById(R.id.imageButton7);
-		call.setOnClickListener(new View.OnClickListener() {
+		//final ImageButton call = (ImageButton)findViewById(R.id.imageButton7);
+		//call.setOnClickListener(new View.OnClickListener() {
 
 			
-			
+	/*		
 			@Override
 			public void onClick(View v) {
 
@@ -51,8 +71,8 @@ public class Page_forty_two extends Activity{
 
 			}
 		});
-		
-		btnNext.setOnClickListener(new OnClickListener() {
+*/
+		forty_two_nextBtn.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View arg0) {

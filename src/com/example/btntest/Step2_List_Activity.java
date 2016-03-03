@@ -26,9 +26,11 @@ public class Step2_List_Activity extends Activity {
 
 		list_1 = (TextView) findViewById(R.id.txt_list1);
 		list_2 = (TextView) findViewById(R.id.txt_list2);
+		
+		String sequence = "¢Ã  ";
 
-		list_1.setText(Globals.getInstance().getList_1());
-		list_2.setText(Globals.getInstance().getList_2());
+		list_1.setText(sequence + Globals.getInstance().getList_1());
+		list_2.setText(sequence + Globals.getInstance().getList_2());
 		
 		twenty_six_nextBtn = (Button)findViewById(R.id.twenty_six_nextBtn);
 		
@@ -40,6 +42,7 @@ public class Step2_List_Activity extends Activity {
 				
 				Intent intent = new Intent(getApplicationContext(), Page_Twenty_Seven.class);
 				startActivity(intent);
+				overridePendingTransition(R.anim.slide_in_right, 0);
 				finish();
 				
 			}

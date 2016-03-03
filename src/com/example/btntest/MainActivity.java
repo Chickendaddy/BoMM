@@ -1,7 +1,5 @@
 package com.example.btntest;
 
-import com.example.btntest.R;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -13,17 +11,16 @@ import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends Activity {
+	
+	Button seventeen_nextBtn;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +30,8 @@ public class MainActivity extends Activity {
 		TextView text = (TextView)findViewById(R.id.txt_step_1_topic);
 		TextView txt_text = (TextView)findViewById(R.id.txt_text);
 		final EditText edit_input = (EditText)findViewById(R.id.edit_input);
+		
+		seventeen_nextBtn = (Button)findViewById(R.id.seventeen_nextBtn);
 
 		String str = getString(R.string.step_1_topic);
 		SpannableStringBuilder sps = new SpannableStringBuilder();
@@ -52,10 +51,32 @@ public class MainActivity extends Activity {
 		txt_text.setBackgroundColor(Color.WHITE);
 		edit_input.setBackgroundColor(Color.WHITE);
 		
-		ImageButton BtnNext = (ImageButton)findViewById(R.id.BtnNext);
-		ImageButton BtnPrev = (ImageButton)findViewById(R.id.BtnPrev);
-
+		//ImageButton BtnNext = (ImageButton)findViewById(R.id.BtnNext);
+		//ImageButton BtnPrev = (ImageButton)findViewById(R.id.BtnPrev);
 		
+		seventeen_nextBtn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+				if(edit_input.getText().toString().equals("")){
+					
+					DialogSimple();
+					
+				}else{
+					
+					Intent intent = new Intent(getApplicationContext(), Page_Twenty.class);
+	        		startActivity(intent);
+	        		overridePendingTransition(R.anim.slide_in_right, 0);
+	        		finish();
+					
+				}
+				
+			}
+		});
+
+		/*
 		BtnPrev.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -88,6 +109,8 @@ public class MainActivity extends Activity {
 				
 			}
 		});
+		
+		*/
 		
 	}
 	

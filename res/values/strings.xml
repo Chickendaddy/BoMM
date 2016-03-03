@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	
+    <string name="login_txt">내 마음의 브레이크, 봄 어플리케이션에 오신 \n\n여러분, 환영합니다.</string>
     <string name="app_name">BtnTest</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -13,6 +14,10 @@
     <string name="step_1_text">제일 먼저, 내 마음의 브레이크가 작동해야 할 상황을 아는 것이 첫 번째입니다. 자동차로 비유하자면 빨간 신호등일 때 브레이크를 밟아 멈춰야 하는 것처럼 말이예요.\n\n
 어떤 상황, 어떤 일들이나 생각들이 나를 괴롭히고 힘들게 하며, 죽고 싶다는 생각이나 그런 기분으로 이어지게 하는지, 빨간 신호등을 본인 스스로 확인하는 것이 중요합니다.\n\n
 가장 최근에 나에게 버겁고 무거웠던 상황, 일, 혹은 생각들이 무엇이었는지 적어보세요.</string>
+
+    <string name="step6_title">여섯 번째 단계는 ‘위기상황! 119!’ 입니다.</string>
+    <string name="step6_txt1">나의 가족, 친구, 내가 믿는 사람, 혹은 나 자신 스스로와</string>
+    <string name="step6_txt2">약속해요...&#160;&#160;&#160;&#160;>></string>
 
     <string name="thirty_six_txt1">떠오르는 사람이 없는데..\n\n도와달라고 했는데 싫어하면, 거절하면 어떡하지?\n\n아예 모르는 사람이었으면 좋겠어..</string>
     <string name="thirty_six_txt2">혹시 이런 생각들로 주저하고 망설이고 있다면,</string>
@@ -31,6 +36,16 @@
     <string name="fourty_nine_title10">자살예방핫라인&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1577-0199</string>
     <string name="step_6_title">‘위기상황! 119’입니다.</string>
     <string name="step_6">여섯 번째 단계는</string>
+    
+    <string name="btn_home">홈</string>
+    <string name="btn_signal">내 마음의 브레이크</string>
+    <string name="btn_graph">기분지수</string>
+    <string name="btn_pos">센터찾기</string>
+    <string name="btn_119">119</string>
+    
+    <string name="forty_two_txt1">친구 스스로에게 심각하고 위급한 응급상황이 발생하여 의료적인 도움이 필요한 경우 119로 연락할 수 있습니다.</string>
+    <string name="forty_two_txt2">하단의 아이콘을 누르면 119로 연결이 됩니다. 혹시 응급상황이나 의료적인 손길이 필요한 경우 주저하지 말고 도움을 요청하세요.</string>
+    <string name="forty_two_txt3">항상 친구가 있는 곳에, 친구를 돕기 위해 달려갈 준비를 하고 있습니다.</string>
         
     <string name="fourty_nine_title13">직접방문 및 상담</string>
     <string name="fourty_nine_title14">성동구 정신건강증진센터&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;032-000-0000</string>
@@ -83,16 +98,19 @@
     <string name="step_2_two_text">앞의 사례처럼, 여기 비슷한 고민으로 힘들어하던 친구들이 자살 생각을 극복하기 위해 실제로 사용하고 효과가 있었던 대처전략들이 있습니다. 친구가 생각했던 방법들과 비슷하거나 혹시 전혀 예상치 못한 대처전략들이 있나요? 나만의 대처전략으로 시도해 보고 싶은 활동들이 있다면 선택해보세요. 그리고 그 방법들이 큰 거부감이 들지 않는다면, 지금 한번 시도해 보세요.</string>
     <string name="step_27_text">혹시 나만의 대처 전략으로도 나를 해치려는 부정적인 생각이나 기분이 사라지지 않는다면...\n\n사람들이 모이는 장소로 나가봅니다. 그곳에서 다양한 활동을 하면서 툭툭! 부정적인 감정들을 털어버리는 겁니다. 마치 쓰레기를 버리듯이 마음 속의 힘들고 괴로운 감정들, 생각들을 버리고 온다고 생각하세요.\n\n
         예를 들어, 친구와 운동장에서 축구나 농구를 해도 좋고, 그냥 동네 한바퀴 뛰거나 버스나 지하철을 타고 다른 동네 구경하는 것과 같습니다. 혼자서 서점에서 만화책 등을 구격하고 잃어보는 것도 괜찮고, 쇼핑몰을 가서 신상 구경하고 수다를 떨어도 좋아요. 그러면서 무겁고 버거웠던 생각들을 날려버리거나 털어버리는 겁니다.\n\n
-        이처럼 3단계에서 할 수 있는 _______친구의 사회적 장소, 사회적 활동들을 적어보겠습니다.</string>
+        이처럼 3단계에서 할 수 있는 친구의 사회적 장소, 사회적 활동들을 적어보겠습니다.</string>
     <string name="title_activity_step2__list_">Step2_List_Activity</string>
     <string name="title_activity_start__fragment">Start_Fragment</string>
 
-    <string name="title_activity_step5__one_">Step5_One_Activity</string>
+    <string name="title_activity_step5__one_">BoMM</string>
     <string name="title_activity_step5__one_title">다섯 번째 단계는</string>
     <string name="title_activity_step5__one_text">친구의 가족이나 친구, 혹은 믿을만한 사람들의 지지와 도움, 적극적인 관심에도 불구하고 지속적으로 자살과 연관된 생각이 든다면,\n</string>
     <string name="title_activity_step5__one_text2">Step5_One_Activity</string>
     <string name="title_activity_step5__one_text3">우리 주변에는 청소년들을 위한 전문상담기관 등이 365일 언제나  친구의 이야기를, 여러분의 입장에서, 아무런 편견없이, 귀기울여 들을 준비를 하고 있습니다. 전화 혹은 인터넷으로도 상담이 가능하며,  직접 방문을 해도 됩니다.의 도움이 필요한 때 입니다. </string>
     <string name="title_activity_step5__two_">Step5_Two_Activity</string>
     <string name="title_activity_webview_">Webview_Activity</string>
+    <string name="title_activity_login_">Login_Activity</string>
+    <string name="title_activity_sigh_">Sigh_Activity</string>
+    <string name="title_activity_find_">Find_Activity</string>
 
 </resources>

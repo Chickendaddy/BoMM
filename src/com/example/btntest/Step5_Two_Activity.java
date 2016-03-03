@@ -28,6 +28,8 @@ public class Step5_Two_Activity extends Activity {
 
 	private ImageButton imgbtn_next;
 	private ImageButton imgbtn_prev;
+	
+	Button step5_nextBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +40,11 @@ public class Step5_Two_Activity extends Activity {
 		btn_search = (Button) findViewById(R.id.btn_search);
 		edit_search = (EditText) findViewById(R.id.edit_search);
 		mLayout.setBackgroundColor(Color.rgb(255, 255, 255));
-		imgbtn_next = (ImageButton) findViewById(R.id.imgbtn_Next);
-		imgbtn_prev = (ImageButton) findViewById(R.id.imgbtn_Prev);
+		//imgbtn_next = (ImageButton) findViewById(R.id.imgbtn_Next);
+		//imgbtn_prev = (ImageButton) findViewById(R.id.imgbtn_Prev);
 
+		step5_nextBtn = (Button)findViewById(R.id.step5_nextBtn);
+		
 		txtPhone1 = (TextView) findViewById(R.id.txt_2);
 		btn_search.setOnClickListener(new OnClickListener() {
 
@@ -59,7 +63,21 @@ public class Step5_Two_Activity extends Activity {
 
 			}
 		});
-
+		
+		step5_nextBtn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+				Intent intent = new Intent(getApplicationContext(), Page_forty_two.class);
+				startActivity(intent);
+				overridePendingTransition(R.anim.slide_in_right, 0);
+				finish();
+				
+			}
+		});
+/*
 		imgbtn_next.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -83,7 +101,7 @@ public class Step5_Two_Activity extends Activity {
 				finish();
 			}
 		});
-
+*/
 		TextView tv = (TextView) findViewById(R.id.txt_1);
 		tv.setText(Html.fromHtml("<a href = \"https://www.cyber1388.kr:447/new/index.asp\">한국청소년상담전화"));
 		tv.setMovementMethod(LinkMovementMethod.getInstance());

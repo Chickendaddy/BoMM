@@ -7,19 +7,23 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_weight="17"
+        android:layout_height="75dp"
+        android:layout_weight="0.1"
+        android:background="#FFFFFF"
         android:gravity="center"
-        android:orientation="vertical" 
-        android:background="#FFFFFF">
+        android:orientation="vertical" >
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="197dp"
-            android:layout_height="108dp"
-            android:src="@drawable/logo"/>
-
+            android:layout_width="159dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
     </LinearLayout>
+    
+        <View 
+         android:layout_width="match_parent"
+         android:layout_height="1dip"
+         android:background="#828282"/>
     
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,12 +31,12 @@
             android:layout_weight="50"
             android:gravity="top"
             android:orientation="vertical" >
-
+        
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="218dp"
-                android:layout_weight="10"
+                android:layout_weight="0.1"
                 android:src="@drawable/twelveback" />
 
         </LinearLayout>
@@ -49,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:textSize="12pt"
+            android:textSize="9pt"
             android:textColor="#FFFFFF"
             android:textStyle="italic"
             android:text=""
@@ -60,6 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textSize="8pt"
             android:text=""
             android:textAppearance="?android:attr/textAppearanceMedium" />
 

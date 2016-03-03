@@ -3,7 +3,9 @@ package com.example.btntest;
 import java.util.List;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -22,6 +24,7 @@ import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Step2_two extends Activity {
 	TextView txt_title;
@@ -60,11 +63,17 @@ public class Step2_two extends Activity {
 		adapter.add(new SampleItem("소리한번 크게! 질러보기"));
 		adapter.add(new SampleItem("애완동물이 있다면, 애완동물 밥주고 놀아주기"));
 		adapter.add(new SampleItem("따뜻한 물로 샤워나 족욕 해보기"));
-
+		
+		//String name = Globals.getInstance().getName();
+		String name = " null";
+		
 		txt_title = (TextView) findViewById(R.id.txt_step_2_two_title);
 		txt_text = (TextView) findViewById(R.id.txt_text);
 		list = (ListView) findViewById(R.id.list);
-		next = (ImageButton) findViewById(R.id.btn_next2);
+		//next = (ImageButton) findViewById(R.id.btn_next2);
+		
+		//btn_select = (Button)findViewById(R.id.btn_select);
+		//btn_next= (Button)findViewById(R.id.btn_next);
 
 		String str = getString(R.string.step_2_title);
 		SpannableStringBuilder sps = new SpannableStringBuilder();
@@ -75,7 +84,7 @@ public class Step2_two extends Activity {
 
 		String str2 = getString(R.string.step_2_two_text);
 		StringBuilder strBuildr = new StringBuilder(str2);
-		strBuildr.insert(76, " _____");
+		strBuildr.insert(76, name);
 		SpannableStringBuilder sps2 = new SpannableStringBuilder();
 		SpannableString ss2 = new SpannableString(strBuildr);
 		ss2.setSpan(new ForegroundColorSpan(Color.parseColor("#88b7d6")), 46, 69, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -87,7 +96,7 @@ public class Step2_two extends Activity {
 
 		list.setAdapter(adapter);
 		list.setBackgroundColor(Color.WHITE);
-
+/*
 		next.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -113,7 +122,8 @@ public class Step2_two extends Activity {
 				
 			}
 		});
-		
+
+*/
 		select = (Button)findViewById(R.id.btn_select);
 
 	}
@@ -147,12 +157,39 @@ public class Step2_two extends Activity {
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
+				
+					Intent intent = new Intent(Step2_two.this, Step2_List_Activity.class);
+					startActivity(intent);
+					overridePendingTransition(R.anim.slide_in_right, 0);
+					finish();
 					
 				}
 			});
 
 			return convertView;
 		}
+	}
+	
+	private void DialogSimple() {
+
+		AlertDialog.Builder alt_bld = new AlertDialog.Builder(this);
+		alt_bld.setMessage("마음에 내키지 않지만.. 한가지라도 선택해 보자!").setCancelable(true)
+				.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+
+					public void onClick(DialogInterface dialog, int id) {
+
+						dialog.cancel();
+					}
+
+				});
+		
+		AlertDialog alert = alt_bld.create();
+		// Title for AlertDialog
+		// alert.setTitle("Title");
+		// Icon for AlertDialog
+
+		alert.show();
+
 	}
 
 }

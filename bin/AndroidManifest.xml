@@ -17,20 +17,45 @@
         <activity android:name=".Page_Thirty_Seven" />
         <activity android:name=".Page_Thirty_Six" />
         <activity android:name=".Page_Thirty_Three" />
-        <activity android:name=".Page_SixTeen" />
+        <activity android:name=".Door" />
         <activity android:name=".Page_Twenty_Two" />
-        <activity android:name=".Page_Twenty_Three" />
-        <activity android:name=".Page_Twenty" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Page_Twenty_Seven" />       
-        <activity android:name="Page_Twenty_Eight" />
+        <activity android:name=".Page_Twenty_Three"
+            	  android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Page_Twenty"
+            	  android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".MainActivity"
+            	  android:windowSoftInputMode="stateHidden" />
+        
+        <activity android:name=".Page_Twenty_Seven" />     
+                   
+        <activity android:name="Page_Twenty_Eight"
+            	  android:windowSoftInputMode="stateHidden" />
 		<activity android:name=".Page_Thirty_Five" />
-		<activity android:name=".Page_Thirty_Foru" />
+		
+		<activity android:name=".Page_Thirty_Foru" >
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>   
+        </activity>
+        
 		<activity android:name=".Page_forty_four" />
         <activity android:name=".Page_forty_five" />
         <activity android:name=".Page_forty_six" />
         <activity android:name=".Page_forty_eight" />
         <activity android:name=".Page_forty_two" />
+        
+         <activity
+            android:name=".Login_Activity"
+            android:label="@string/title_activity_login_" />
+        <activity
+            android:name=".Sigh_Activity"
+            android:label="@string/title_activity_sigh_" >
+        </activity>
+        <activity
+            android:name=".Find_Activity"
+            android:label="@string/title_activity_find_" >
+        </activity>
         
        <activity
             android:name=".Page_Thirty"
@@ -53,14 +78,9 @@
             android:windowSoftInputMode="adjustPan" />
             
         <activity
-            android:name=".Door"
-            android:label="@string/title_activity_step5__one_" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:name=".Page_SixTeen"
+            android:label="@string/title_activity_step5__one_" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".Page_Fourty_Nine"
             android:label="@string/title_activity_step5__two_" >

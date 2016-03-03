@@ -87,18 +87,18 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="4"
+                        android:layout_weight="5"
                         android:background="@android:color/white"
                         android:src="@drawable/promise1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:gravity="center"
-                        android:text="우리 여기, 함께 고민하고 생각해서 작성한
-                &apos;내 마음의 브레이크&apos;,\n______ 친구만의 대처전략이 있습니다. \n\n
+                        android:text="우리 여기, 함께 고민하고 생각해서 작성한 \n&apos;내 마음의 브레이크&apos;,\n______ 친구만의 대처전략이 있습니다. \n\n
                 혹시 마음에 빨간 신호등이 켜질 때,\n부정적인 감정이나 생각들을 멈추기 \n위한 브레이크로\n사용하겠다고 약속해 봐요."
-                        android:textSize="13sp" />
+                        android:textSize="15sp" />
 
                     <LinearLayout
                         android:layout_width="fill_parent"

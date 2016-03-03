@@ -13,6 +13,7 @@ import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -21,6 +22,8 @@ public class Step5_One_Activity extends Activity {
 	TextView txt_title;
 	ImageButton imgbtn_next;
 	ImageButton imgbtn_prev;
+	
+	Button step5_nextBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +32,13 @@ public class Step5_One_Activity extends Activity {
 
 		txt_text = (TextView) findViewById(R.id.txt_text);
 		txt_title = (TextView) findViewById(R.id.txt_step_5_title);
-		imgbtn_next = (ImageButton) findViewById(R.id.imgbtn_Next);
-		imgbtn_prev = (ImageButton) findViewById(R.id.imgbtn_Prev);
+		//imgbtn_next = (ImageButton) findViewById(R.id.imgbtn_Next);
+		//imgbtn_prev = (ImageButton) findViewById(R.id.imgbtn_Prev);
+		
+		step5_nextBtn = (Button)findViewById(R.id.step5_nextBtn);
+		
+		//String name = Globals.getInstance().getName();
+		String name = "null";
 
 		String txt_title1 = txt_title.getText().toString();
 		SpannableStringBuilder sps2 = new SpannableStringBuilder();
@@ -43,10 +51,10 @@ public class Step5_One_Activity extends Activity {
 		String str_text3 = getString(R.string.title_activity_step5__one_text3);
 
 		StringBuilder strBuildr1 = new StringBuilder(str_text3);
-		strBuildr1.insert(35, " _____");
+		strBuildr1.insert(35, name);
 
 		StringBuilder strBuildr = new StringBuilder(str);
-		strBuildr.insert(0, " _____");
+		strBuildr.insert(0, name);
 		String str1 = strBuildr + "\n" + "전문적인 의료진 혹은 심리상담사들의 도움이 필요한 때 입니다.\n\n";
 
 		String str2 = str1 + strBuildr1;
@@ -59,13 +67,14 @@ public class Step5_One_Activity extends Activity {
 
 		txt_text.setBackgroundColor(Color.WHITE);
 
-		imgbtn_next.setOnClickListener(new OnClickListener() {
+		step5_nextBtn.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(Step5_One_Activity.this, Step5_Two_Activity.class);
 				startActivity(intent);
+				overridePendingTransition(R.anim.slide_in_right, 0);
 				finish();
 			}
 		});
