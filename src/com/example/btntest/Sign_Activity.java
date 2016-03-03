@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Sigh_Activity extends Activity {
+public class Sign_Activity extends Activity {
 
 	private Button btn_sign;
 	
@@ -47,17 +47,17 @@ public class Sigh_Activity extends Activity {
 				
 				if(edit_name.getText().toString().equals("")){
 					
-					Toast toast = Toast.makeText(getApplicationContext(), "ÀÌ¸§À» ÀÔ·ÂÇØ ÁÖ¼¼¿ä.", Toast.LENGTH_SHORT);
+					Toast toast = Toast.makeText(getApplicationContext(), "ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.", Toast.LENGTH_SHORT);
 					toast.show();
 					
 				}else if(edit_Email.getText().toString().equals("")){
 					
-					Toast toast = Toast.makeText(getApplicationContext(), "ÀÌ¸ÞÀÏÀ» ÀÔ·ÂÇØ ÁÖ¼¼¿ä.", Toast.LENGTH_SHORT);
+					Toast toast = Toast.makeText(getApplicationContext(), "ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.", Toast.LENGTH_SHORT);
 					toast.show();
 					
 				}else if(edit_Pass.getText().toString().equals("")){
 			
-					Toast toast = Toast.makeText(getApplicationContext(), "ºñ¹Ð¹øÈ£¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.", Toast.LENGTH_SHORT);
+					Toast toast = Toast.makeText(getApplicationContext(), "ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.", Toast.LENGTH_SHORT);
 					toast.show();
 					
 				}
@@ -65,7 +65,7 @@ public class Sigh_Activity extends Activity {
 				Globals.getInstance().setPersonInfo(edit_name.getText().toString(), 
 						edit_Email.getText().toString(),edit_Pass.getText().toString());
 				
-				Toast.makeText(getApplicationContext(), "È¸¿ø°¡ÀÔÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.", Toast.LENGTH_LONG).show();
+				Toast.makeText(getApplicationContext(), "È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï·ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.", Toast.LENGTH_LONG).show();
 				finish();
 			}
 		});

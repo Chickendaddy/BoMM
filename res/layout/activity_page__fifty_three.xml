@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6edf3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#828282" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/fifty_three_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:text="@string/fifty_three_text"
+                    android:textSize="9pt" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/twin1" />
+
+                <TextView
+                    android:id="@+id/txt_fifty_three_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="오늘 하루,"
+                    android:textColor="#3084bb"
+                    android:textSize="10pt" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="정말 "
+                        android:textColor="#3084bb"
+                        android:textSize="9pt" />
+
+                    <TextView
+                        android:id="@+id/btn_chose1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="(선택하기)"
+                        android:textSize="9pt" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text=",그래도 / 그래서 "
+                        android:textColor="#3084bb"
+                        android:textSize="9pt" />
+
+                    <TextView
+                        android:id="@+id/btn_chose2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="(선택하기)"
+                        android:textSize="9pt" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/twin2" />
+
+                <Button
+                    android:id="@+id/fifty_three_nextBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/btndesign"
+                    android:height="30dp"
+                    android:text="확인"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:width="80dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/visable_home" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/visable_signal_off" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/graph_on" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/visable_pos" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/visable_heart" />
+    </LinearLayout>
+
+</LinearLayout>

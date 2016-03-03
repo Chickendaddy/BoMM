@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	
+
     <string name="login_txt">내 마음의 브레이크, 봄 어플리케이션에 오신 \n\n여러분, 환영합니다.</string>
     <string name="app_name">BtnTest</string>
     <string name="hello_world">Hello world!</string>
@@ -14,16 +14,13 @@
     <string name="step_1_text">제일 먼저, 내 마음의 브레이크가 작동해야 할 상황을 아는 것이 첫 번째입니다. 자동차로 비유하자면 빨간 신호등일 때 브레이크를 밟아 멈춰야 하는 것처럼 말이예요.\n\n
 어떤 상황, 어떤 일들이나 생각들이 나를 괴롭히고 힘들게 하며, 죽고 싶다는 생각이나 그런 기분으로 이어지게 하는지, 빨간 신호등을 본인 스스로 확인하는 것이 중요합니다.\n\n
 가장 최근에 나에게 버겁고 무거웠던 상황, 일, 혹은 생각들이 무엇이었는지 적어보세요.</string>
-
     <string name="step6_title">여섯 번째 단계는 ‘위기상황! 119!’ 입니다.</string>
     <string name="step6_txt1">나의 가족, 친구, 내가 믿는 사람, 혹은 나 자신 스스로와</string>
     <string name="step6_txt2">약속해요...&#160;&#160;&#160;&#160;>></string>
-
     <string name="thirty_six_txt1">떠오르는 사람이 없는데..\n\n도와달라고 했는데 싫어하면, 거절하면 어떡하지?\n\n아예 모르는 사람이었으면 좋겠어..</string>
     <string name="thirty_six_txt2">혹시 이런 생각들로 주저하고 망설이고 있다면,</string>
     <string name="thirty_six_txt3">여기 친구의 이야기를 아무런 편견없이, 조건없이 귀 기울여 들어주는 지역사회 기관들이 있습니다. 사회적 지지체계로 아래 기관들을 선택해 보세요.</string>
     <string name="thirty_seven_txt1">5. 기관</string>
-    
     <string name="fourty_nine_title1">‘삐뽀삐뽀, 내 마음의 빨간 신호등 알아차리기’</string>
     <string name="fourty_nine_title2">‘나를 괴롭히는 것들! 저리가!’</string>
     <string name="fourty_nine_title3">‘훅 날려버릴까? 툭! 털어버릴까?’</string>
@@ -36,25 +33,19 @@
     <string name="fourty_nine_title10">자살예방핫라인&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1577-0199</string>
     <string name="step_6_title">‘위기상황! 119’입니다.</string>
     <string name="step_6">여섯 번째 단계는</string>
-    
     <string name="btn_home">홈</string>
     <string name="btn_signal">내 마음의 브레이크</string>
     <string name="btn_graph">기분지수</string>
     <string name="btn_pos">센터찾기</string>
     <string name="btn_119">119</string>
-    
     <string name="forty_two_txt1">친구 스스로에게 심각하고 위급한 응급상황이 발생하여 의료적인 도움이 필요한 경우 119로 연락할 수 있습니다.</string>
     <string name="forty_two_txt2">하단의 아이콘을 누르면 119로 연결이 됩니다. 혹시 응급상황이나 의료적인 손길이 필요한 경우 주저하지 말고 도움을 요청하세요.</string>
     <string name="forty_two_txt3">항상 친구가 있는 곳에, 친구를 돕기 위해 달려갈 준비를 하고 있습니다.</string>
-        
     <string name="fourty_nine_title13">직접방문 및 상담</string>
     <string name="fourty_nine_title14">성동구 정신건강증진센터&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;032-000-0000</string>
-        
     <string name="fourty_nine_title11"><![CDATA["◆"]]>전화번호를 누르면 해당 기관으로 연결됩니다.</string>
     <string name="fourty_nine_title12"><![CDATA["◆"]]>기관명을 누르면 인터넷 상담이 가능한 사이트로 이동합니다.</string>
-    
     <string name="fourty_nine_title15">나 스스로에게 심각하고 위급한 응급상황이 발생하면 아이콘을 눌러 119로 연락합니다.</string>
-    
     <string name="thirty_four_txt3">내가 자살에 대해 말하면 그들이 날 어떻게 생각할까?..\n\n그들에게 부담주기 싫어..\n\n날 돕기 싫어할 수도 있어..</string>
     <string name="thirty_five_txt1">그들에게 기회를 주세요.</string>
     <string name="thirty_five_txt3">이들에게 아래 메시지를 보내길 원한다면, 문자전송 버튼 을 눌러주세요. 메시지 수정을 원하면 창을 눌러주세요.</string>
@@ -66,7 +57,7 @@
     <string name="thirty_txt2">친구나, 가족, 내가 믿고 의하는 사람들과 함께하며, 가끔은 혼자여도 괜찮습니다.</string>
     <string name="thirty_txt3">4. 무엇을</string>
     <string name="thirty_exam">[예시]\n\n농구하기, 만화책보기, 게임하기, 수다떨기, 아이쇼핑하기, 기도하기, 맛있는 거 먹기, 지나가는 사람 구경하기, 배우고 있는 악기나 운동 다시 해보기 등 </string>
-	<string name="thirty_five_msg">내가 힘들 때 내 얘길 들어주고 옆에 있어주길 부탁할께</string>
+    <string name="thirty_five_msg">내가 힘들 때 내 얘길 들어주고 옆에 있어주길 부탁할께</string>
     <string name="step_20_text">그 때 내 기분은 어땠지? 화, 분노, 슬픔, 무기력함 등이었나? 그 때 들었떤 기분에 대해 적어보세요.</string>
     <string name="step_2_text_part1">자살생각이 들 때 즉시 그 자리에서 해볼 수 있는, 기분이 편안해지는 나만의 방법, 부정적인 감정을 확! 제압해버릴 수 있도록 무엇인가에 몰입할 수 있는</string>
     <string name="step_2_text_part2">친구 만의 방법이 있다면 가장 좋아하는 활동부터 적어보세요.\n\n이제 우리는 이 방법들을 대처전략이라고 부르겠습니다.</string>
@@ -101,7 +92,6 @@
         이처럼 3단계에서 할 수 있는 친구의 사회적 장소, 사회적 활동들을 적어보겠습니다.</string>
     <string name="title_activity_step2__list_">Step2_List_Activity</string>
     <string name="title_activity_start__fragment">Start_Fragment</string>
-
     <string name="title_activity_step5__one_">BoMM</string>
     <string name="title_activity_step5__one_title">다섯 번째 단계는</string>
     <string name="title_activity_step5__one_text">친구의 가족이나 친구, 혹은 믿을만한 사람들의 지지와 도움, 적극적인 관심에도 불구하고 지속적으로 자살과 연관된 생각이 든다면,\n</string>
@@ -112,5 +102,10 @@
     <string name="title_activity_login_">Login_Activity</string>
     <string name="title_activity_sigh_">Sigh_Activity</string>
     <string name="title_activity_find_">Find_Activity</string>
+    <string name="title_activity_page__fi_fty__two">Page_FiFty_Two</string>
+    <string name="fifty_two_text">"친구의 '길고 긴 인생 역사'에 아주 작은 한 순간일 뿐입니다. 여기 오늘 힘들었던 순간들과 기분들을 써 내려가면서 나를 위로해주고 툭툭 털어버리세요."</string>
+    <string name="title_activity_page__fifty_fore">Page_Fifty_fore</string>
+    <string name="fifty_three_text">"오늘 하루, 기분을 설명하는 단어나 이모티콘을 아래에서 선택하거나 직접 작성해 보세요. 단, 여기에는 규칙이 있습니다. 반드시 마지막 단어나 문장은 긍정적이어야 한다는 것!, 잊지 마세요!"</string>
+    <string name="title_activity_page__fifty__fore">Page_Fifty_Fore</string>
 
 </resources>

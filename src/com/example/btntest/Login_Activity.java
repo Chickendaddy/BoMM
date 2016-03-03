@@ -50,7 +50,7 @@ public class Login_Activity extends Activity {
 				
 				if(email_txt.getText().toString().equals("")){
 					
-					Toast toast = Toast.makeText(getApplicationContext(), "ÀÌ¸ÞÀÏÀ» ÀÔ·ÂÇØ ÁÖ¼¼¿ä.", Toast.LENGTH_SHORT);
+					Toast toast = Toast.makeText(getApplicationContext(), "ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.", Toast.LENGTH_SHORT);
 					toast.show();
 					
 					return;
@@ -59,7 +59,7 @@ public class Login_Activity extends Activity {
 					
 					if(!email_txt.getText().toString().equals(Globals.getInstance().getEmail())){
 						
-						Toast toast = Toast.makeText(getApplicationContext(), "µî·ÏµÈ ÀÌ¸ÞÀÏÀÌ ¾ø½À´Ï´Ù. ÀÌ¸ÞÀÏÀ» È®ÀÎÇØ ÁÖ¼¼¿ä.", Toast.LENGTH_SHORT);
+						Toast toast = Toast.makeText(getApplicationContext(), "ï¿½ï¿½Ïµï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.", Toast.LENGTH_SHORT);
 						toast.show();
 						
 						return;
@@ -69,7 +69,7 @@ public class Login_Activity extends Activity {
 				
 				if(pass_txt.getText().toString().equals("")){
 					
-					Toast toast = Toast.makeText(getApplicationContext(), "ºñ¹Ð¹øÈ£¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.", Toast.LENGTH_SHORT);
+					Toast toast = Toast.makeText(getApplicationContext(), "ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.", Toast.LENGTH_SHORT);
 					toast.show();
 					
 					return;
@@ -78,7 +78,7 @@ public class Login_Activity extends Activity {
 					
 					if(!pass_txt.getText().toString().equals(Globals.getInstance().getPass())){
 						
-						Toast toast = Toast.makeText(getApplicationContext(), "ºñ¹Ð¹øÈ£°¡ Æ²·È½À´Ï´Ù.", Toast.LENGTH_SHORT);
+						Toast toast = Toast.makeText(getApplicationContext(), "ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ Æ²ï¿½È½ï¿½ï¿½Ï´ï¿½.", Toast.LENGTH_SHORT);
 						toast.show();
 						
 						return;
@@ -97,7 +97,7 @@ public class Login_Activity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent(Login_Activity.this, Sigh_Activity.class);
+				Intent intent = new Intent(Login_Activity.this, Sign_Activity.class);
 				startActivity(intent);
 			}
 		});
