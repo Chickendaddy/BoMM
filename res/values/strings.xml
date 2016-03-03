@@ -107,5 +107,17 @@
     <string name="title_activity_page__fifty_fore">Page_Fifty_fore</string>
     <string name="fifty_three_text">"오늘 하루, 기분을 설명하는 단어나 이모티콘을 아래에서 선택하거나 직접 작성해 보세요. 단, 여기에는 규칙이 있습니다. 반드시 마지막 단어나 문장은 긍정적이어야 한다는 것!, 잊지 마세요!"</string>
     <string name="title_activity_page__fifty__fore">Page_Fifty_Fore</string>
+    <string name="title_activity_page__seventy__six">Page_Seventy_Six</string>
+    <string name="title_activity_page__seventy_zero">Page_Seventy_zero</string>
+    <string name="title_activity_page__seventy__zero_1">"혹시 미래가 확실히 보이지 않아 두렵거나 초조해질 수 있습니다. 그렇다면 일단 무엇이든 배워보세요. 평소에 해보고 싶었던 것들, 수영이나 검도, 요가와 같은 운동도 좋고, 드럼이나 피아노, 기타와 같은 악기도 좋습니다. 그림도 괜찮을 것 같네요. 지금     검색해보세요. 저렴한 수강료에 여러분이 원하는 강좌를 수강할 수 있습니다. "</string>
+    <string name="title_activity_page__seventy_zero_2">"이렇게 무언가를 배우는 날이 하루 이틀 쌓이다 보면, 여러분의 '삶의 방향'을 찾는데 답을 얻거나 힌트를 얻을 수도 있습니다. 배우면서 즐기세요. 오늘 여기, 여러분께 주어진 과제입니다."</string>
+    <string name="title_activity_main2_">Main2_Activity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_second__main">Second_Main</string>
 
 </resources>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.btntest.Second_Main" >
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/visable_home"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/action_example"/>
+    <item
+        android:id="@+id/singal"
+        android:icon="@drawable/visable_signal_off"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/action_example"/>
+    <item
+        android:id="@+id/graph"
+        android:icon="@drawable/visable_graph"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/action_example"/>
+    <item
+        android:id="@+id/information"
+        android:icon="@drawable/imformation2"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/action_example"/>
+    <item
+        android:id="@+id/heart"
+        android:icon="@drawable/visable_heart"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/action_example"/>
+
+</menu>

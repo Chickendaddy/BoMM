@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1674b2"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="50dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="내 마음의 브레이크, 봄 시작하기"
+        android:textColor="#FFFFFF"
+        android:textSize="9pt" />
+
+    <TextView
+        android:id="@+id/step1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="나를 위한 위로와 앱 소개" />
+
+    <TextView
+        android:id="@+id/step2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="사용방법 및 개발자 소개" />
+
+    <TextView
+        android:id="@+id/step3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="내 마음의 브레이크 작성하기"
+        android:textColor="#FFFFFF"
+        android:textSize="9pt" />
+
+    <TextView
+        android:id="@+id/step4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="완성된 내 마음의 브레이크"
+        android:textColor="#FFFFFF"
+        android:textSize="9pt" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="내 마음의 창 들여다 보기"
+        android:textColor="#FFFFFF"
+        android:textSize="9pt" />
+
+    <TextView
+        android:id="@+id/step5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="오늘 하루, 정말..." />
+
+    <TextView
+        android:id="@+id/step6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="나의 기분 공감지수" />
+
+    <TextView
+        android:id="@+id/step7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="내 마음의 창 재무장하기" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="내 삶의 방향 찾기"
+        android:textColor="#FFFFFF"
+        android:textSize="9pt" />
+
+    <TextView
+        android:id="@+id/step8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="시작하기" />
+
+    <TextView
+        android:id="@+id/step9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="내 삶의 방향 찾기 단계" />
+
+    <TextView
+        android:id="@+id/step10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="유용한 정보 다시보기" />
+
+</LinearLayout>
